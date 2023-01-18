@@ -6,7 +6,7 @@ import Logo from '../../assets/logo.svg'
 
 export const HeaderComponent: React.FC = () => {
   return (
-    <View className='w-full flex-row align-center justify-between px-8 py-20'>
+    <View className='w-full flex-row align-center justify-between'>
       <Logo />
       <TouchableOpacity className='flex-row h-11 px-4 items-center border border-violet-500 rounded-lg'>
         <Feather
